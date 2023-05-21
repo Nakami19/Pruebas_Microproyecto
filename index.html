@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="todo">
+    <section class="informacion">
+        <div class="usuario">
+        </div>
+
+        <div class="puntaje hide" >
+            <h3>Puntaje:</h3>
+        </div>
+
+        <div class="tiempo">
+        </div>
+    </section>
+
+        <div class="cuadro">
+        <div class="card-container">
+        </div>
+        </div>
+        
+    <section class="game_over">
+        <div class="botones">
+       <button class="newgame hide">Iniciar nuevo juego</button>
+       <button class="puntuaciones hide">Puntuaciones</button>
+    </div>
+       <div class="anuncio">
+
+       </div>
+    </section>
+
+
+  <dialog class="modal">
+        <div class="modal_content">
+            <h2 class="modal_title">Bienvenido a Memory Match</h2>
+            <p class="modal_text">Por favor ingresa tu nombre antes de empezar a jugar</p>
+            <form method="dialog" action="" class="username_input">
+                <input id="name" type="text" required>
+                <button id="cerrar"  type="submit" class="modal_close">Enviar Nombre</button>
+            </form>
+    </div>
+    </dialog>  
+
+    <dialog class="modal2">
+        <div class="modal2_content">
+            <h2 class="modal2_title">Puntuaciones</h2>
+            <div class="tabla_puntajes"></div>
+    </div>
+        <button class="salir">Salir</button>
+    </dialog> 
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>
